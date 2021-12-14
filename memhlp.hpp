@@ -5,6 +5,8 @@
 #include <map>
 #include <unordered_map>
 #include <elf.h>
+#include <cstddef>
+#include <string>
 
 enum symbl{
 	SYM_INVALID, SYM_ON, SYM_SEL_ON, SYM_M_LOOP, SYM_ENTRYP,
